@@ -65,6 +65,7 @@ execute "hi Pmenu guifg="       . s:Colors[1]  . " guibg=" . s:Colors[8]  . " gu
 execute "hi PmenuSel guifg="    . s:Colors[13] . " guibg=" . s:Colors[9]  . " gui=none"
 execute "hi Question guifg="    . s:Colors[0]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi Search guifg="      . s:Colors[0]  . " guibg=" . s:Colors[12] . " gui=none"
+execute "hi SignColumn guifg=NONE guibg=" . s:Colors[12]
 execute "hi SpecialKey guifg="  . s:Colors[10] . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi StatusLine guifg="  . s:Colors[15] . " guibg=" . s:Colors[16] . " gui=none"
 execute "hi StatusLineNC guifg=". s:Colors[15] . " guibg=" . s:Colors[8]  . " gui=none"
