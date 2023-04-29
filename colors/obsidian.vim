@@ -21,7 +21,8 @@ let s:Colors = [
   \'#d5cb7d','#d39745','#4e5a5f',
   \'#678cb1','#5899c0','#5ab9be',
   \'#1a252a','#24333a','#e1c70d',
-  \'#ffffff','#3c5975','#374043']
+  \'#ffffff','#3c5975','#374043',
+  \'#928374']
 
 " Syntax
 execute "hi Normal  guifg="     . s:Colors[1]  . " guibg=" . s:Colors[12] . " gui=none"
@@ -51,20 +52,21 @@ execute "hi Cursor guifg="      . s:Colors[12] . " guibg=" . s:Colors[5]  . " gu
 execute "hi CursorIM guifg="    . s:Colors[7]  . " guibg=" . s:Colors[5]  . " gui=none"
 execute "hi CursorLine guifg=NONE guibg=" . s:Colors[13]
 execute "hi CursorColumn guifg=". s:Colors[1]  . " guibg=" . s:Colors[13] . " gui=none"
+execute "hi Conceal guifg="     . s:Colors[18] . " guibg=none gui=italic"
 execute "hi Directory guifg="   . s:Colors[10] . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi ErrorMsg guifg="    . s:Colors[13] . " guibg=" . s:Colors[7]  . " gui=none"
 execute "hi FoldColumn guifg="  . s:Colors[13] . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi Folded guifg="      . s:Colors[12] . " guibg=" . s:Colors[11] . " gui=none"
-execute "hi IncSearch guifg="   . s:Colors[1]  . " guibg=" . s:Colors[12] . " gui=none"
+execute "hi IncSearch guifg="   . s:Colors[12] . " guibg=" . s:Colors[14] . " gui=none"
 execute "hi LineNr guifg="      . s:Colors[8]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi MatchParen guifg="  . s:Colors[12] . " guibg=" . s:Colors[11] . " gui=none"
 execute "hi ModeMsg guifg="     . s:Colors[5]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi MoreMsg guifg="     . s:Colors[5]  . " guibg=" . s:Colors[12] . " gui=none"
-execute "hi NonText guifg="     . s:Colors[17]  . " guibg=" . s:Colors[12] . " gui=none"
+execute "hi NonText guifg="     . s:Colors[17] . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi Pmenu guifg="       . s:Colors[1]  . " guibg=" . s:Colors[8]  . " gui=none"
 execute "hi PmenuSel guifg="    . s:Colors[13] . " guibg=" . s:Colors[9]  . " gui=none"
 execute "hi Question guifg="    . s:Colors[0]  . " guibg=" . s:Colors[12] . " gui=none"
-execute "hi Search guifg="      . s:Colors[0]  . " guibg=" . s:Colors[12] . " gui=none"
+execute "hi Search guifg="      . s:Colors[12] . " guibg=" . s:Colors[10] . " gui=none"
 execute "hi SignColumn guifg=NONE guibg=" . s:Colors[12]
 execute "hi SpecialKey guifg="  . s:Colors[10] . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi StatusLine guifg="  . s:Colors[15] . " guibg=" . s:Colors[16] . " gui=none"
